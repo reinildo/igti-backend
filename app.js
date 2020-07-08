@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://igti-frontend.herokuapp.com",
+    origin: "https://gentle-caverns-43933.herokuapp.com",
   })
 );
 
